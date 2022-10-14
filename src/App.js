@@ -3,7 +3,7 @@ import logo from "./logo.svg";
 import "./App.css";
 function App() {
   const [number, setNumber] = useState(0);
-  return (
+  let thehtml = (
     <div class="container">
       <h1 class="haha">ToDo list</h1>
       <div class="input">
@@ -27,6 +27,8 @@ function App() {
       </div>
     </div>
   );
+
+  return thehtml;
 }
 
 export default App;
