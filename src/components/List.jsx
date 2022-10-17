@@ -1,8 +1,15 @@
 import React from "react";
-import "../styles/ListStyle.css"
-export const List = () => {return <div>Temp</div>};
-export const Comment = (props) => {
-    const {commentText} = props;
-    return <div className="comment">{commentText}</div>
-}
-export default List;
+import "../styles/ListStyle.css";
+const Comment = (props) => {
+  const { commentText } = props;
+  return (
+    <div className="boxbottom">
+      <div className="comment">
+        <input type="checkbox" />
+        {commentText}
+      </div>
+      <button className="xbutton">❌</button>
+    </div>
+  );
+};
+export default Comment;
