@@ -3,7 +3,6 @@ import UserCard from "./UserCard";
 import users from "../users.json";
 
 const AllUser = () => {
-  console.log(users);
   const [output, setOutput] = useState(users);
   const Search = (val) => {
     setOutput(() => {
