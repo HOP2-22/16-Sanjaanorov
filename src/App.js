@@ -1,17 +1,16 @@
-import React, { useState } from "react";
+import React from "react";
+import { BrowserRouter, Routes, Route, useParams } from "react-router-dom";
+import AllUser from "./components/AllUser";
 import "./App.css";
-import Comment from "./components/List";
+import SeeDetail from "./components/SeeDetail";
 function App() {
-  const [list, setList] = useState([]);
-  const [inputValue, setValue] = useState("");
   return (
-    <div class="container">
-      <h3 class="header">SIGN UP</h3> <div class="line"></div> <br />
-      <p>Name</p>
-      <input></input>
-      <div class="line"></div>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<AllUser />} />
+        <Route path=":username" element={<SeeDetail />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
-
 export default App;
