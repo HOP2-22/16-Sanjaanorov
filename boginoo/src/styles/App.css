@@ -1,0 +1,402 @@
+.logo {
+  position: absolute;
+  width: 184px;
+  height: 118px;
+  left: 48%;
+  top: 384px;
+}
+.herhen {
+  position: absolute;
+  width: 274px;
+  height: 23px;
+  top: 45px;
+  left: 70%;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  text-transform: uppercase;
+
+  color: #02b589;
+}
+.loginHerhen {
+  position: absolute;
+  margin-left: 87%;
+  width: 274px;
+  height: 23px;
+  top: 45px;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  text-transform: uppercase;
+  color: #02b589;
+}
+.loginLogo {
+  margin-left: 48%;
+  margin-top: 12%;
+}
+.loginButton {
+  position: absolute;
+  width: 133px;
+  height: 44px;
+  top: 56px;
+  left: 80%;
+  background: #02b589;
+  border-radius: 100px;
+  border: none;
+}
+.loginButtonText {
+  margin-left: 2px;
+
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 5px;
+
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.loginButton:hover {
+  background: #029b75;
+}
+.loginButton:active {
+  background: #005a43;
+}
+.inputContainer {
+  position: absolute;
+  width: 581px;
+  height: 44px;
+  left: 41%;
+  top: 566px;
+}
+.inputText {
+  box-sizing: border-box;
+  width: 581px;
+  height: 44px;
+  left: 325px;
+  top: 566px;
+  background: #ffffff;
+  border: 1px solid #f0f0f0;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.16);
+  border-radius: 100px;
+}
+::placeholder {
+  margin-left: 20px;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000000;
+
+  opacity: 0.2;
+}
+.shortenButtonText {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 5px;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.shortenButton {
+  position: absolute;
+  width: 192px;
+  height: 44px;
+  left: 600px;
+
+  background: #02b589;
+  border-radius: 100px;
+  border: none;
+}
+.topLoginText {
+  position: absolute;
+  width: 130px;
+  height: 37px;
+  left: 1380px;
+  top: 553px;
+
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 1000;
+  font-size: 40px;
+  line-height: 37px;
+
+  text-align: center;
+
+  color: #02b589;
+}
+.emailP {
+  font-family: "Ubuntu";
+  position: absolute;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  top: 52%;
+  left: 1260px;
+  color: #000000;
+}
+.emailInput {
+  box-sizing: border-box;
+  top: 55%;
+  left: 1260px;
+  position: absolute;
+  width: 381px;
+  height: 44px;
+  background: #ffffff;
+  border: 1px solid #f0f0f0;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.16);
+  border-radius: 100px;
+  border: none;
+}
+.passP {
+  font-family: "Ubuntu";
+  position: absolute;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  top: 60%;
+  left: 1260px;
+  color: #000000;
+}
+.passInput {
+  box-sizing: border-box;
+  top: 63%;
+  left: 1260px;
+  position: absolute;
+  width: 381px;
+  height: 44px;
+  background: #ffffff;
+  border: 1px solid #f0f0f0;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.16);
+  border-radius: 100px;
+}
+.emailInput:focus {
+  outline: none;
+}
+.passInput:focus {
+  outline: none;
+}
+.inputText:focus {
+  outline: none;
+}
+.rememberP {
+  font-family: "Ubuntu";
+  font-style: normal;
+  position: absolute;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: #02b589;
+  top: 66.9%;
+  left: 1280px;
+}
+.rememberCheck {
+  color: #02b589;
+  border: 1px solid #02b589;
+  position: absolute;
+  box-shadow: inset 1px 1px 2px 2px 2px #02b589;
+  border-radius: 4px;
+  top: 68%;
+  left: 1260px;
+}
+.forgotPassTextOnLogin {
+  background-color: #ffffff;
+  border: none;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: #333333;
+  position: absolute;
+  top: 67%;
+  left: 1480px;
+}
+.forgotPassTextOnLogin:hover {
+  text-decoration-line: underline;
+}
+.loginButtonOnLogin {
+  position: absolute;
+  width: 383px;
+  height: 43px;
+  top: 72%;
+  left: 1260px;
+  background: #02b589;
+  border-radius: 100px;
+  border: none;
+}
+.loginButtonOnLoginText {
+  width: 93px;
+  height: 23px;
+  margin-left: 37%;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 3px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.loginButtonOnLogin:hover {
+  background-color: #029b75;
+}
+.loginButtonOnLogin:active {
+  background-color: #005a43;
+}
+.signupOnLogin {
+  background-color: #ffffff;
+  border: none;
+  position: absolute;
+  height: 18px;
+  top: 78%;
+  left: 1380px;
+
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+
+  color: #02b589;
+}
+.signupOnLogin:hover {
+  color: #029b75;
+  text-decoration-line: underline;
+}
+input {
+  box-sizing: border-box;
+  padding: 15px;
+}
+.passP2 {
+  font-family: "Ubuntu";
+  position: absolute;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  top: 67%;
+  left: 1260px;
+  color: #000000;
+}
+.passInput2 {
+  box-sizing: border-box;
+  top: 70%;
+  left: 1260px;
+  position: absolute;
+  width: 381px;
+  height: 44px;
+  background: #ffffff;
+  border: 1px solid #f0f0f0;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.16);
+  border-radius: 100px;
+}
+.signup {
+  position: absolute;
+  width: 383px;
+  height: 43px;
+  top: 76%;
+  left: 1260px;
+  background: #02b589;
+  border-radius: 100px;
+  border: none;
+}
+.signupText {
+  width: 93px;
+  height: 23px;
+  margin-left: 35%;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 3px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.topSignupText {
+  position: absolute;
+  width: 130px;
+  height: 37px;
+  left: 1350px;
+  top: 553px;
+
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 1000;
+  font-size: 40px;
+  line-height: 37px;
+
+  text-align: center;
+
+  color: #02b589;
+}
+.topForgotText {
+  position: absolute;
+  width: 244px;
+  height: 37px;
+  left: 1330px;
+  top: 553px;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 37px;
+  text-align: center;
+  color: #02b589;
+}
+.forgotButton {
+  position: absolute;
+  width: 383px;
+  height: 43px;
+  top: 60%;
+  left: 1260px;
+  background: #02b589;
+  border-radius: 100px;
+  border: none;
+}
+.forgotText {
+  position: absolute;
+  width: 290px;
+  height: 50px;
+  left: 1305px;
+  top: 673px;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: center;
+  color: #000000;
+}
+.sendText {
+  width: 93px;
+  height: 23px;
+  margin-left: 37%;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 3px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.ehv {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 5px;
+
+  text-transform: uppercase;
+
+  color: #ffffff;
+}

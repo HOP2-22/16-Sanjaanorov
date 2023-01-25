@@ -1,0 +1,70 @@
+body {
+    background-color: rgba(255, 255, 255, 0.803);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 48%;
+    width: 366px;
+    height: 374px;
+    background-color: rgba(255, 255, 255, 0.25);
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 1px 4px 18px 5px #cecece;
+
+}
+
+.text {
+    margin-left: 8%;
+    width: 291px;
+    height: 154px;
+}
+
+.pics {
+    margin-left: 8%;
+    margin-top: 30px;
+}
+
+.profile {
+    margin-left: 8%;
+    width: 56px;
+    height: 56px;
+
+}
+
+p {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    font-weight: 499;
+}
+
+.profilea {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    margin-top: 35px;
+}
+
+h3 {
+    margin-left: 10%;
+}
+
+.sas {
+    margin-left: 6.89px;
+    width: 16px;
+    height: 16px;
+}
+
+@font-face {
+    font-family: "CustomFont";
+    src: url("https: //fonts.googleapis.com/css?family=Mulish");
+}

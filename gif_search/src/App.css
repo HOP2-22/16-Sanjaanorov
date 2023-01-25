@@ -1,0 +1,9 @@
+body{
+  background-color: gainsboro;
+}
+.App{
+  margin-left: 45%;
+}
+.gifs{
+  display: flex;
+}
