@@ -103,6 +103,7 @@ const MyData = ({ index, Data, isActive, setMove, setScore }) => {
       }}
     >
       <img
+        draggable="false"
         src={Image2}
         alt="upperBack"
         style={{
@@ -113,6 +114,7 @@ const MyData = ({ index, Data, isActive, setMove, setScore }) => {
         sx={{ draggable: false }}
       />
       <img
+        draggable="false"
         src={Image3}
         alt="rat"
         style={{
@@ -125,6 +127,7 @@ const MyData = ({ index, Data, isActive, setMove, setScore }) => {
         onClick={() => setScore((prev) => prev + 1)}
       />
       <img
+        draggable="false"
         src={Image}
         alt="lowerBack"
         style={{

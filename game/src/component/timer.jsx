@@ -13,6 +13,7 @@ const Timer = ({ isActive, setter }) => {
     setMinutes(0);
     sethours(0);
     setter(false);
+    window.location.reload(false);
   }
 
   useEffect(() => {
